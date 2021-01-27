@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Please, enter the text to be redacted</h1>
+<form method="post" action="/add_message">
+    <input placeholder="Card number" type="text" name="card">
+    <input placeholder="Expiration date" type="text" name="date">
+    <input placeholder="CVV" type="text" name="cvv">
+    <button type="submit">Redact data</button>
+</form>
+
+{% endblock %}
