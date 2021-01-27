@@ -22,3 +22,7 @@ $ python simple_app.py
 ```
 
 Once the above done, you can access it at http://127.0.0.1:5000/
+
+## Video demonstration
+
+https://drive.google.com/file/d/1VJKADRZVPdQamlRE87RkjIPjy4qjfZa-/view?usp=sharing
