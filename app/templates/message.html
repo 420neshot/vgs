@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Redacted card: {{ card }}</h1>
+<h1>Redacted date: {{ date }}</h1>
+<h1>Redacted cvv: {{ cvv }}</h1>
+<form method="post" action="/forward">
+    <input placeholder="Card alias" type="text" name="card">
+    <input placeholder="Exp date alias" type="text" name="date">
+    <input placeholder="CVV alias" type="text" name="cvv">
+    <button type="submit">Reveal data</button>
+</form>
+
+</body>
+</html>
